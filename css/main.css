@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: #a8b8c59c;
+}
+
+.player {
+  max-width: 850px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.player .video {
+  max-width: 100%;
+  border-radius: 30px 30px 0 0;
+}
+
+.player .controls {
+  background: #1b2639;
+  border-radius: 0px 0px 30px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 40px;
+  margin-top: -5px;
+}
+
+.player .controls .controls_stop {
+  margin-left: 20px;
+  cursor: pointer;
+  width: 7%;
+}
+
+.player .controls .controls_play {
+  cursor: pointer;
+  width: 7%;
+}
+
+.player .controls .controls_time {
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #c9d1d764;
+}
+
+.player .controls .controls_progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 30px;
+}
+/*# sourceMappingURL=main.css.map */
